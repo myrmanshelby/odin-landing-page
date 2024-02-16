@@ -139,3 +139,37 @@ body {
 .total-quote {
   max-width: 700px;
 }
+
+/* Call to action */
+
+.CTA {
+  background-color: #3882f6;
+  color: #f9faf8;
+  margin: 6% 20%;
+  padding: 3% 8%;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.CTA-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.CTA p {
+  margin-top: 0;
+}
+
+.CTA button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border: solid #f9faf8;
+  border-radius: 10px;
+  padding: 1% 5%;
+  font-size: 18px;
+  font-weight: 600;
+}
