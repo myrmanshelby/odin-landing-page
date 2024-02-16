@@ -38,7 +38,7 @@ body {
   background-color: #1f2937;
   color: #e5e7eb;
   font-size: 18px;
-  padding: 50px 100px 100px 100px;
+  padding: 50px 100px 125px 100px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -62,7 +62,7 @@ body {
   border: none;
   text-decoration: none;
   font-weight: 600;
-  padding: 5px 25px;
+  padding: 10px 30px;
   border-radius: 8px;
 }
 
@@ -106,8 +106,36 @@ body {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
   flex-wrap: wrap;
 }
 
 /*  Customer Testimonial */
+
+.content-block-3 {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  padding: 70px 40px 50px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: light;
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.author {
+  font-size: 26px;
+  font-weight: 800;
+  text-align: right;
+}
+
+.total-quote {
+  max-width: 700px;
+}
