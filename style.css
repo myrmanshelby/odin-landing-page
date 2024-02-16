@@ -75,4 +75,39 @@ body {
 /* Content block 2*/
 
 .next-header {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2947;
+  text-align: center;
+  margin: 40px;
 }
+
+.content-block-2 img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: solid #3882f6 6px;
+  border-radius: 20px;
+}
+
+.images {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images p {
+  max-width: 150px;
+  text-align: center;
+}
+
+.content-block-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+}
+
+/*  Customer Testimonial */
